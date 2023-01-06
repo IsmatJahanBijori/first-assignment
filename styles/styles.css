@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* background-image, heading and paragraph */
+.container {
+    position: relative;
+
+}
+
+.bg-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    text-align: right;
+    margin: 0 200px;
+}
+
+.bg-text h2 {
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bg-text p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+.btn-primary {
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 60px;
+    text-align: center;
+
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    /* display: inline-flex; */
+    margin: 0px 200px;
+}
+
+.banner-heading {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.banner-description {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+/* myplans styles */
+
+.myplans {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    margin: 100px 200px;
+}
+
+.skill-title {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.skill-description {
+    background: #ffffff;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+/* positive part */
+.section {
+    margin: 50px 100px;
+    text-align: center;
+    position: relative;
+}
+
+.section-info {
+    color: black;
+    position: absolute;
+    margin: 0 200px;
+    bottom: 20px;
+    left: 20px;
+    padding: 30px;
+    
+}
+.section-info h1{
+    margin-bottom: 10px;
+}
+
+/* footer */
+.footer{
+display: flex;
+gap: 100px; 
+padding: 100px 450px;
+background-color: black;
+color: white;
+
+}
+
+.footer-title{
+
+font-size: 30px; 
+font-weight: 700; 
+margin-bottom: 10px; 
+text-align: left;
+}
+
+.footer-description{
+font-size: 20px;
+font-weight: 300px;
+margin-bottom: 5px;
+}
+
+
+.footer input[type="email"] {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 35px;
+}
