@@ -45,21 +45,22 @@
 }
 
 /* banner styles */
+
 .banner {
     display: flex;
-    /* display: inline-flex; */
     margin: 0px 200px;
 }
 
 .banner-heading {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 200px;
 }
 
-.banner-description {
-    font-size: 30px;
-    font-weight: 200;
+.banner-description ul{
+    font-size: 18px;
+    font-weight: 100;
     margin-bottom: 15px;
 }
 
@@ -70,6 +71,7 @@
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .skills-container {
