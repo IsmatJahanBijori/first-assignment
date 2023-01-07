@@ -45,10 +45,6 @@
     margin: auto;
 
 }
-.btn-primary:hover{
-    /* background-color: #fff; */
-    cursor: pointer;
-}
 
 /* banner styles, about styles */
 
@@ -72,7 +68,6 @@
     margin-bottom: 15px;
 }
 
-/* about me styles */
 
 /* myplans styles */
 
