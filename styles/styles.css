@@ -11,7 +11,6 @@
 
 .bg-text {
     position: absolute;
-    margin-top: 0;
     bottom: 20px;
     right: 20px;
     color: white;
@@ -42,21 +41,29 @@
     border-radius: 5px;
     height: 60px;
     text-align: center;
+    background-color: palevioletred;
+    margin: auto;
 
 }
+.btn-primary:hover{
+    /* background-color: #fff; */
+    cursor: pointer;
+}
 
-/* banner styles */
+/* banner styles, about styles */
 
-.banner {
+.banner, .about {
     display: flex;
-    margin: 0px 200px;
+    margin: 100px 200px;
+    gap: 30px;
 }
 
-.banner-heading {
+.banner-heading, .about-heading {
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
     margin-top: 200px;
+    justify-content: space-around;
 }
 
 .banner-description ul{
@@ -64,6 +71,8 @@
     font-weight: 100;
     margin-bottom: 15px;
 }
+
+/* about me styles */
 
 /* myplans styles */
 
@@ -98,7 +107,7 @@
     padding: 30px;
 }
 
-/* positive part */
+/* gradient style */
 .section {
     margin: 50px 100px;
     text-align: center;
@@ -111,7 +120,7 @@
     margin: 0 200px;
     bottom: 20px;
     left: 20px;
-    padding: 30px;
+    padding: 15px;
     
 }
 .section-info h1{
