@@ -11,6 +11,7 @@
 
 .bg-text {
     position: absolute;
+    margin-top: 0;
     bottom: 20px;
     right: 20px;
     color: white;
